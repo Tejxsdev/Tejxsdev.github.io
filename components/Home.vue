@@ -1,7 +1,7 @@
 
 <template>
   <div class="home">
-    <h1>Tj,</h1>
+    <h1>Tejas,</h1>
     <p class="bio">
       I am a first year CS student @ Dalhousie University (Halifax), with a passion for computers and graphics programming.😇<br>I enjoy creating visually engaging applications and exploring more about computer science!
     </p>
