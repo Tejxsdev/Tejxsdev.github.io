@@ -1,9 +1,8 @@
 <template>
   <div class="home">
-    <h1>Sidh,</h1>
+    <h1>Tj,</h1>
     <p class="bio">
-      A 17 yo student and programming enthusiast. I've recently started my
-      journey with VueJS, love to build web applications!
+      I am a first year CS student @ Dalhousie University (Halifax), with a passion for computers and graphics programming.😇<br>I enjoy creating visually engaging applications and exploring more about computer science!
     </p>
     <h2 class="heading">Language/Framework</h2>
     <div class="noselect">
