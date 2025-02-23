@@ -1,0 +1,150 @@
+body {
+    background-color: rgba(0, 0, 0, 1);
+    font-family: Cantarell, sans-serif;
+    margin-top: 40px;
+    margin-left: 10%;
+    color: white;
+}
+
+.links {
+    margin-right: 8px;
+    width: 0px;
+    color: #888888;
+}
+
+a {
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    margin-top: 6%;
+    margin-left: 0%;
+}
+
+.images {
+    margin-left: auto;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.bio {
+    margin-right: 40%;
+    line-height: 25px;
+}
+
+.heading {
+    margin-top: 30px;
+    color: #888888;
+}
+
+.icons {
+    padding: 0 15px 0 0;
+}
+
+.works {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 30px;
+}
+
+.pabt {
+    margin-left: 40px;
+    color: #888888;
+    width: 60%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.photos {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 3%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 10%;
+    color: #888888;
+    padding-right: 50px;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+br {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 5%;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: #888;
+}
